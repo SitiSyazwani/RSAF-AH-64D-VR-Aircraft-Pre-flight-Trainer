@@ -15,7 +15,7 @@ C:/Users/Siti Syazwani/UnityProjects/RSAF AH-64D VR Aircraft Pre-flight Trainer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53151
+51199
 Successfully changed project path to: C:/Users/Siti Syazwani/UnityProjects/RSAF AH-64D VR Aircraft Pre-flight Trainer
 C:/Users/Siti Syazwani/UnityProjects/RSAF AH-64D VR Aircraft Pre-flight Trainer
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Siti Syazwani/UnityProjects/RSAF AH-64D VR Aircraft Pre-flight Trainer
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 51.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 68.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004235 seconds.
+Registered in 0.005342 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 47.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 73.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.440 seconds
+- Completed reload, in  0.645 seconds
 Domain Reload Profiling:
-	ReloadAssembly (440ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (646ms)
+		BeginReloadAssembly (70ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (312ms)
-			LoadAssemblies (52ms)
+		EndReloadAssembly (468ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (74ms)
+			SetupTypeCache (110ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (183ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (278ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (40ms)
+				InitializePlatformSupportModulesInManaged (63ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (48ms)
+				RefreshPlugins (74ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (66ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004789 seconds.
+Registered in 0.007822 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Siti Syazwani\UnityProjects\RSAF AH-64D VR Aircraft Pre-flight Trainer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Siti Syazwani\UnityProjects\RSAF AH-64D VR Aircraft Pre-flight Trainer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.795 seconds
+- Completed reload, in  1.101 seconds
 Domain Reload Profiling:
-	ReloadAssembly (796ms)
-		BeginReloadAssembly (181ms)
+	ReloadAssembly (1102ms)
+		BeginReloadAssembly (225ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (117ms)
-		EndReloadAssembly (533ms)
-			LoadAssemblies (62ms)
+			CreateAndSetChildDomain (136ms)
+		EndReloadAssembly (767ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (171ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (242ms)
+			SetupTypeCache (242ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (352ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (150ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (56.0 KB). Loaded Objects now: 3841.
-Memory consumption went from 117.2 MB to 117.1 MB.
-Total: 2.806300 ms (FindLiveObjects: 0.199300 ms CreateObjectMapping: 0.070500 ms MarkObjects: 2.480800 ms  DeleteObjects: 0.051900 ms)
+Unloading 3393 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (56.7 KB). Loaded Objects now: 3855.
+Memory consumption went from 119.5 MB to 119.5 MB.
+Total: 4.254600 ms (FindLiveObjects: 0.206800 ms CreateObjectMapping: 0.080500 ms MarkObjects: 3.865000 ms  DeleteObjects: 0.101000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,83 +163,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 278200.930867 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.011879 seconds 
+  Time since last request: 344622.321100 seconds.
+  path: Assets/Images/pre-flight trainer logo.png
+  artifactKey: Guid(3646f2bd9c2854d43a8111a00b26f7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/pre-flight trainer logo.png using Guid(3646f2bd9c2854d43a8111a00b26f7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb051931c7f6b92e3ea3fee4801b6c5d') in 0.078708 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 77.429722 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.012267 seconds 
+  Time since last request: 11.651171 seconds.
+  path: Assets/Images/pre-flight trainer logo.png
+  artifactKey: Guid(3646f2bd9c2854d43a8111a00b26f7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/pre-flight trainer logo.png using Guid(3646f2bd9c2854d43a8111a00b26f7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a7bc96b7aa96cc171887d6b1fe4494') in 0.024992 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.165155 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(505967e25f508564ab758edde8afe079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(505967e25f508564ab758edde8afe079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144131401dc446b72dccfb53101e2480') in 0.009286 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.843397 seconds.
-  path: Assets/Materials/Ground Base.mat
-  artifactKey: Guid(fc2ae67be161f384889c9b9628bfdd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Ground Base.mat using Guid(fc2ae67be161f384889c9b9628bfdd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4765fe5dad56b47117d08d8ac8ccc4') in 0.222666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3117.086221 seconds.
-  path: Assets/Fonts
-  artifactKey: Guid(90382d9009ec74a429eb0f422379a297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts using Guid(90382d9009ec74a429eb0f422379a297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8656bde6c43739041a5383d7a7af9eb') in 0.007284 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.621355 seconds.
-  path: Assets/Fonts/Call of Ops Duty II.otf
-  artifactKey: Guid(720520f73fe121447bbe374bc91ed8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Call of Ops Duty II.otf using Guid(720520f73fe121447bbe374bc91ed8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b16edac77b78a174ee793df1f32a8c') in 0.029029 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2276.963003 seconds.
-  path: Assets/Fonts/Call of Ops Duty II SDF.asset
-  artifactKey: Guid(82e187d2c004afc40bf6bfb251d3ec6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Call of Ops Duty II SDF.asset using Guid(82e187d2c004afc40bf6bfb251d3ec6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
- -> (artifact id: '722bb940d2a9a57431da5331403f9883') in 0.118809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 351.030350 seconds.
-  path: Assets/Fonts/FORMULA-A.ttf
-  artifactKey: Guid(2517cf0f53fa8b347b08198fae933470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/FORMULA-A.ttf using Guid(2517cf0f53fa8b347b08198fae933470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed7cfe70144eed90d11d09fadb0f85a') in 0.021153 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.465816 seconds.
-  path: Assets/Fonts/REPUBLIC NINE.otf
-  artifactKey: Guid(ce87da6b0e9137d449122f0831dc63e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/REPUBLIC NINE.otf using Guid(ce87da6b0e9137d449122f0831dc63e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed192a9a4e21fc4466b015db7563556') in 0.020323 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.359190 seconds.
-  path: Assets/Fonts/Fatal Fighter.ttf
-  artifactKey: Guid(e88147e91767f7948af08651b6042a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Fatal Fighter.ttf using Guid(e88147e91767f7948af08651b6042a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f09d415838a0d66292625e6f708e32') in 0.026321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.856545 seconds.
-  path: Assets/Fonts/Call of Ops Duty II SDF.asset
-  artifactKey: Guid(82e187d2c004afc40bf6bfb251d3ec6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Call of Ops Duty II SDF.asset using Guid(82e187d2c004afc40bf6bfb251d3ec6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
- -> (artifact id: '1e4f1ba771d63814cdaeef6c8e7b60b2') in 0.025703 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.088067 seconds.
-  path: Assets/Fonts/FORMULA-A SDF.asset
-  artifactKey: Guid(49c0bf6299a84924da7249f78cf60a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/FORMULA-A SDF.asset using Guid(49c0bf6299a84924da7249f78cf60a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
- -> (artifact id: '2453dfe293b8043b8dcf8dba8627179d') in 0.024853 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.913632 seconds.
-  path: Assets/Fonts/REPUBLIC NINE SDF.asset
-  artifactKey: Guid(847ede40f9fdebd4db4ebd8b72fddff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/REPUBLIC NINE SDF.asset using Guid(847ede40f9fdebd4db4ebd8b72fddff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
- -> (artifact id: 'fb5b72a6d7262281552f2659445d95c5') in 0.027370 seconds 
+  Time since last request: 30.300918 seconds.
+  path: Assets/Images/pre-flight trainer logo.png
+  artifactKey: Guid(3646f2bd9c2854d43a8111a00b26f7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/pre-flight trainer logo.png using Guid(3646f2bd9c2854d43a8111a00b26f7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65252f9f290ac1d2d311e8b0a4930b90') in 0.112784 seconds 
