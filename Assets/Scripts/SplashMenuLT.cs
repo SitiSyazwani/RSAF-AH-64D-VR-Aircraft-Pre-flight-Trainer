@@ -5,9 +5,9 @@ using UnityEngine.UI;
 using DentedPixel;
 
 //---------------------------------------------------------------------------------
-// Author		: Yeo Siok Chin Jazlyn
-// Date  		: 2022-11-11
-// Description	: This is where you write a summary of what the role of this file.
+// Author		: Jazlyn & Siti Syazwani
+// Date  		: 2023-10-20
+// Description	: This is for splashscreen animation.
 //---------------------------------------------------------------------------------
 
 public class SplashMenuLT : MonoBehaviour
@@ -17,6 +17,7 @@ public class SplashMenuLT : MonoBehaviour
     // Private Variables
     //---------------------
     [SerializeField] private GameObject _splashScr;
+    [SerializeField] private GameObject _splashScr2;
 
     [Header("SplashScreen Settings")]
     // Create more variables here to give you flexibility to control timing
@@ -25,14 +26,18 @@ public class SplashMenuLT : MonoBehaviour
     [SerializeField] private GameObject _decalJetHammer;
     [SerializeField] private CanvasGroup _mainMenuPanel;
     private RectTransform _splashScrRectTransform;
+    private RectTransform _splashScr2RectTransform;
 
     #endregion
 
     #region Unity Methods
     protected void Awake()
     {
-        _splashScr.transform.localScale = new Vector3(0.08f, 0.08f, 0.08f);
+        //_splashScr.transform.localScale = new Vector3(0.08f, 0.08f, 0.08f);
         _splashScrRectTransform = _splashScr.GetComponent<RectTransform>();
+
+        //_splashScr2.transform.localScale = new Vector3(0.08f, 0.08f, 0.08f);
+        _splashScr2RectTransform = _splashScr2.GetComponent<RectTransform>();
 
         /*
         If you do not want to code this, in inspector change alpha of image to zero. 
@@ -44,15 +49,23 @@ public class SplashMenuLT : MonoBehaviour
     }
 
     protected void Start()
-    {
+    {      
         var seq = LeanTween.sequence();
-        seq.append(2f); // delay everythign 2 second
+        seq.append(2f); // delay everything 2 second
         seq.append( () => {
-            FadeInLogo();
+            FadeInLogo1();
         });
         seq.append(3f); // delay everything by Showtime in second
         seq.append( () => {
-            FadeOutLogo();
+            FadeOutLogo1();
+        });
+        seq.append(2f); // delay everything 2 second
+        seq.append(() => {
+            FadeInLogo2();
+        });
+        seq.append(3f); // delay everything by Showtime in second
+        seq.append(() => {
+            FadeOutLogo2();
         });
         seq.append(1f); // delay everything by fadeout time in second
         seq.append( () => {
@@ -65,29 +78,56 @@ public class SplashMenuLT : MonoBehaviour
 
     #region Own Methods
 
-    private void FadeInLogo()
+    /*
+    ////////////////////////////////
+     SP Logo
+    ////////////////////////////////
+     */
+    private void FadeInLogo1()
     {
         // delay 2sec before show else it will be missed when VR starts
         LeanTween.scaleX(_splashScr, 0.1f, 1f);
-        LeanTween.scaleY(_splashScr, 0.1f, 1f);
+        LeanTween.scaleY(_splashScr, 0.061f, 1f);
         LeanTween.alpha(_splashScrRectTransform, 1f, 1f);
-        Debug.Log("fade in logo");
-
-        /*
-        LeanTween.scaleX(_splashScr, _zoomAmountEnd, _fadeInTime).setDelay(2f);
-        LeanTween.scaleY(_splashScr, _zoomAmountEnd, _fadeInTime).setDelay(2f);
-        LeanTween.alpha(_splashScr.GetComponent<RectTransform>(), 1f, _fadeInTime.setDelay(2f).setOnComplete(FadeOutLogo);
-        */
+        Debug.Log("fade in SP logo");
     }
 
-    private void FadeOutLogo()
+    private void FadeOutLogo1()
     {
         LeanTween.scaleX(_splashScr, 0.05f, 1f);
         LeanTween.scaleY(_splashScr, 0.05f, 1f);
         LeanTween.alpha(_splashScrRectTransform, 0f, 1f);
-        Debug.Log("fade out logo");
+        Debug.Log("fade out SP logo");
     }
 
+    /*
+    ////////////////////////////////
+     RSAF Logo
+    ////////////////////////////////
+     */
+    private void FadeInLogo2()
+    {
+        // delay 2sec before show else it will be missed when VR starts
+        LeanTween.scaleX(_splashScr2, 0.066f, 1f);
+        LeanTween.scaleY(_splashScr2, 0.085f, 1f);
+        LeanTween.alpha(_splashScr2RectTransform, 1f, 1f);
+        Debug.Log("fade in RSAF logo");
+
+    }
+
+    private void FadeOutLogo2()
+    {
+        LeanTween.scaleX(_splashScr2, 0.05f, 1f);
+        LeanTween.scaleY(_splashScr2, 0.05f, 1f);
+        LeanTween.alpha(_splashScr2RectTransform, 0f, 1f);
+        Debug.Log("fade out RSAF logo");
+    }
+
+    /*
+    ////////////////////////////////
+     Menu
+    ////////////////////////////////
+     */
     private void ShowDecalAndMenu()
     {
         _decalJetHammer.SetActive(true);
