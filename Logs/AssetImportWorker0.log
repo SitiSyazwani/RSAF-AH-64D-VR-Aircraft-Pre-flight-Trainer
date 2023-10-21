@@ -15,7 +15,7 @@ C:/Unity SP/RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57989
+58078
 Successfully changed project path to: C:/Unity SP/RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct
 C:/Unity SP/RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ C:/Unity SP/RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 276.04 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 1.76 ms.
+Refreshing native plugins compatible for Editor in 263.08 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 2.52 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Unity SP/RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct/Assets
@@ -63,54 +63,54 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.016380 seconds.
+Registered in 0.022730 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 306.03 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
+Refreshing native plugins compatible for Editor in 271.99 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.027 seconds
+- Completed reload, in  1.944 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2028ms)
-		BeginReloadAssembly (196ms)
+	ReloadAssembly (1945ms)
+		BeginReloadAssembly (177ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1515ms)
-			LoadAssemblies (190ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1449ms)
+			LoadAssemblies (173ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (329ms)
+			SetupTypeCache (350ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (89ms)
-			SetupLoadedEditorAssemblies (927ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (855ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (136ms)
+				InitializePlatformSupportModulesInManaged (151ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (306ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (330ms)
-				ProcessInitializeOnLoadMethodAttributes (151ms)
+				RefreshPlugins (272ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (301ms)
+				ProcessInitializeOnLoadMethodAttributes (126ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016585 seconds.
+Registered in 0.017414 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Unity SP\RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Unity SP\RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 272.36 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.26 ms.
+Refreshing native plugins compatible for Editor in 247.53 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Unity SP\RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
@@ -128,43 +128,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  3.769 seconds
+- Completed reload, in  3.818 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3772ms)
-		BeginReloadAssembly (354ms)
+	ReloadAssembly (3821ms)
+		BeginReloadAssembly (323ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (20ms)
+			DisableScriptedObjects (17ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (53ms)
-		EndReloadAssembly (3055ms)
-			LoadAssemblies (260ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (3089ms)
+			LoadAssemblies (225ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (893ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (207ms)
-			SetupLoadedEditorAssemblies (1571ms)
+			SetupTypeCache (916ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (176ms)
+			SetupLoadedEditorAssemblies (1592ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (273ms)
-				BeforeProcessingInitializeOnLoad (303ms)
-				ProcessInitializeOnLoadAttributes (839ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (248ms)
+				BeforeProcessingInitializeOnLoad (313ms)
+				ProcessInitializeOnLoadAttributes (866ms)
 				ProcessInitializeOnLoadMethodAttributes (99ms)
-				AfterProcessingInitializeOnLoad (24ms)
-				EditorAssembliesLoaded (1ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 2.15 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.29 ms.
+Refreshing native plugins compatible for Editor in 2.50 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.31 ms.
 Unloading 4204 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (56.2 KB). Loaded Objects now: 4668.
-Memory consumption went from 148.4 MB to 148.3 MB.
-Total: 8.795000 ms (FindLiveObjects: 0.624000 ms CreateObjectMapping: 0.622400 ms MarkObjects: 7.355400 ms  DeleteObjects: 0.184500 ms)
+Memory consumption went from 148.3 MB to 148.2 MB.
+Total: 9.766900 ms (FindLiveObjects: 0.500900 ms CreateObjectMapping: 0.456400 ms MarkObjects: 8.632100 ms  DeleteObjects: 0.175000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -178,121 +178,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 476516.534905 seconds.
-  path: Assets/Fonts/Call of Ops Duty II SDF.asset
-  artifactKey: Guid(82e187d2c004afc40bf6bfb251d3ec6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Call of Ops Duty II SDF.asset using Guid(82e187d2c004afc40bf6bfb251d3ec6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46022c51e49e4c1e6a97297d2d0e9ab6') in 0.532509 seconds 
+  Time since last request: 476867.410091 seconds.
+  path: Assets/Test - Jazlyn
+  artifactKey: Guid(b99dec92a53e4134bbeadf9350124815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test - Jazlyn using Guid(b99dec92a53e4134bbeadf9350124815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dad5c1a1b98877fc9198e5e05c2ff2e') in 0.050895 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Fonts/Call of Ops Duty II.otf
-  artifactKey: Guid(720520f73fe121447bbe374bc91ed8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Call of Ops Duty II.otf using Guid(720520f73fe121447bbe374bc91ed8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b16edac77b78a174ee793df1f32a8c') in 0.059597 seconds 
+  Time since last request: 23.069390 seconds.
+  path: Assets/Scenes/MenuScene.unity
+  artifactKey: Guid(92f8bf76693faf14b8c8b7283061319a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuScene.unity using Guid(92f8bf76693faf14b8c8b7283061319a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed08b345abe987f2b2022d3a8ece1295') in 0.004907 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Fonts/Fatal Fighter SDF.asset
-  artifactKey: Guid(651b6a3285b778e499df09f9724a455a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Fatal Fighter SDF.asset using Guid(651b6a3285b778e499df09f9724a455a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1576cdc89d7aea3e7bc504566ffc7988') in 0.080539 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Fonts/REPUBLIC NINE.otf
-  artifactKey: Guid(ce87da6b0e9137d449122f0831dc63e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/REPUBLIC NINE.otf using Guid(ce87da6b0e9137d449122f0831dc63e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed192a9a4e21fc4466b015db7563556') in 0.094433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Fonts/FORMULA-A.ttf
-  artifactKey: Guid(2517cf0f53fa8b347b08198fae933470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/FORMULA-A.ttf using Guid(2517cf0f53fa8b347b08198fae933470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed7cfe70144eed90d11d09fadb0f85a') in 0.056003 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Fonts/FORMULA-A SDF.asset
-  artifactKey: Guid(49c0bf6299a84924da7249f78cf60a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/FORMULA-A SDF.asset using Guid(49c0bf6299a84924da7249f78cf60a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc902448f0863aac7dfd74181b2dff4a') in 0.073631 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Fonts/REPUBLIC NINE SDF.asset
-  artifactKey: Guid(847ede40f9fdebd4db4ebd8b72fddff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/REPUBLIC NINE SDF.asset using Guid(847ede40f9fdebd4db4ebd8b72fddff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c559e4b6e73b4b8b39c891a1f0e5ce') in 0.071601 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Fonts/Fatal Fighter.ttf
-  artifactKey: Guid(e88147e91767f7948af08651b6042a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Fatal Fighter.ttf using Guid(e88147e91767f7948af08651b6042a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f09d415838a0d66292625e6f708e32') in 0.045374 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010916 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Unity SP\RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Unity SP\RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.55 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.20 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Unity SP\RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Unity SP\RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <4e64905d831f4883a53259ef37fb023b>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.976 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3980ms)
-		BeginReloadAssembly (313ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (88ms)
-		EndReloadAssembly (3358ms)
-			LoadAssemblies (208ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (731ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (96ms)
-			SetupLoadedEditorAssemblies (2089ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (64ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (339ms)
-				ProcessInitializeOnLoadAttributes (1455ms)
-				ProcessInitializeOnLoadMethodAttributes (175ms)
-				AfterProcessingInitializeOnLoad (50ms)
-				EditorAssembliesLoaded (2ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (35ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 9.66 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.25 ms.
-Unloading 4164 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (24.6 KB). Loaded Objects now: 4718.
-Memory consumption went from 151.0 MB to 151.0 MB.
-Total: 12.576400 ms (FindLiveObjects: 1.022400 ms CreateObjectMapping: 0.798800 ms MarkObjects: 10.706200 ms  DeleteObjects: 0.045300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 5.922917 seconds.
+  path: Assets/MenuScene.unity
+  artifactKey: Guid(1d2cee1e6def59240bb835bcaf9fb23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuScene.unity using Guid(1d2cee1e6def59240bb835bcaf9fb23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf03fecd9b99d9d70776735f2405d23') in 0.004739 seconds 
