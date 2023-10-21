@@ -18,6 +18,7 @@ public class SplashMenuLT : MonoBehaviour
     //---------------------
     [SerializeField] private GameObject _splashScr;
     [SerializeField] private GameObject _splashScr2;
+    [SerializeField] private AudioSource BGM;
 
     [Header("SplashScreen Settings")]
     // Create more variables here to give you flexibility to control timing
@@ -25,6 +26,7 @@ public class SplashMenuLT : MonoBehaviour
     [Header("Decal on Floor")]
     [SerializeField] private GameObject _decalJetHammer;
     [SerializeField] private CanvasGroup _mainMenuPanel;
+    [SerializeField] private CanvasGroup _whiteCanvas;
     private RectTransform _splashScrRectTransform;
     private RectTransform _splashScr2RectTransform;
 
@@ -67,7 +69,7 @@ public class SplashMenuLT : MonoBehaviour
         seq.append(() => {
             FadeOutLogo2();
         });
-        seq.append(1f); // delay everything by fadeout time in second
+        seq.append(3f); // delay everything by fadeout time in second
         seq.append( () => {
             ShowDecalAndMenu();
         });
@@ -131,7 +133,9 @@ public class SplashMenuLT : MonoBehaviour
     private void ShowDecalAndMenu()
     {
         _decalJetHammer.SetActive(true);
+        LeanTween.alphaCanvas(_whiteCanvas, 0f, 1f);
         LeanTween.alphaCanvas(_mainMenuPanel, 1f, 1f);
+        BGM.Play();
         Debug.Log("show menu");
     }
 
