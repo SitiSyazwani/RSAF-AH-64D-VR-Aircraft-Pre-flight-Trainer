@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16127 MB
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16051 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Unity SP/RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct
+C:/Users/Siti Syazwani/UnityProjects/RSAF AH-64D VR Aircraft Pre-flight Trainer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56197
-Successfully changed project path to: C:/Unity SP/RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct
-C:/Unity SP/RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct
+65436
+Successfully changed project path to: C:/Users/Siti Syazwani/UnityProjects/RSAF AH-64D VR Aircraft Pre-flight Trainer
+C:/Users/Siti Syazwani/UnityProjects/RSAF AH-64D VR Aircraft Pre-flight Trainer
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,74 +47,74 @@ C:/Unity SP/RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 224.80 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 2.02 ms.
+Refreshing native plugins compatible for Editor in 139.32 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 1.53 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Unity SP/RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Siti Syazwani/UnityProjects/RSAF AH-64D VR Aircraft Pre-flight Trainer/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Plus Graphics (ID=0x8a52)
-    Vendor:   Intel
-    VRAM:     8063 MB
-    Driver:   27.20.100.8729
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   30.0.15.1278
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.014474 seconds.
+Registered in 0.004207 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 219.84 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
+Refreshing native plugins compatible for Editor in 56.05 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.738 seconds
+- Completed reload, in  0.458 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1739ms)
-		BeginReloadAssembly (191ms)
+	ReloadAssembly (458ms)
+		BeginReloadAssembly (51ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1223ms)
-			LoadAssemblies (188ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (326ms)
+			LoadAssemblies (50ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (273ms)
+			SetupTypeCache (72ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (743ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (198ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (115ms)
+				InitializePlatformSupportModulesInManaged (40ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (220ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (272ms)
-				ProcessInitializeOnLoadMethodAttributes (132ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014266 seconds.
+Registered in 0.005784 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Unity SP\RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Unity SP\RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Siti Syazwani\UnityProjects\RSAF AH-64D VR Aircraft Pre-flight Trainer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Siti Syazwani\UnityProjects\RSAF AH-64D VR Aircraft Pre-flight Trainer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 227.61 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.20 ms.
+Refreshing native plugins compatible for Editor in 55.52 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Unity SP\RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Unity SP\RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\Siti Syazwani\UnityProjects\RSAF AH-64D VR Aircraft Pre-flight Trainer\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Siti Syazwani\UnityProjects\RSAF AH-64D VR Aircraft Pre-flight Trainer\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
    --- End of inner exception stack trace ---
@@ -128,49 +128,50 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  3.533 seconds
+- Completed reload, in  1.142 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3536ms)
-		BeginReloadAssembly (281ms)
+	ReloadAssembly (1143ms)
+		BeginReloadAssembly (197ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (2888ms)
-			LoadAssemblies (218ms)
+			CreateAndSetChildDomain (130ms)
+		EndReloadAssembly (859ms)
+			LoadAssemblies (167ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (922ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (160ms)
-			SetupLoadedEditorAssemblies (1441ms)
+			SetupTypeCache (191ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (424ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (35ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (228ms)
-				BeforeProcessingInitializeOnLoad (291ms)
-				ProcessInitializeOnLoadAttributes (782ms)
-				ProcessInitializeOnLoadMethodAttributes (84ms)
-				AfterProcessingInitializeOnLoad (21ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.34 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 1.10 ms.
-Unloading 4204 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (56.2 KB). Loaded Objects now: 4668.
-Memory consumption went from 148.3 MB to 148.2 MB.
-Total: 8.791900 ms (FindLiveObjects: 0.523200 ms CreateObjectMapping: 0.267200 ms MarkObjects: 7.828300 ms  DeleteObjects: 0.171200 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 4191 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.1 KB). Loaded Objects now: 4652.
+Memory consumption went from 147.1 MB to 147.0 MB.
+Total: 2.661600 ms (FindLiveObjects: 0.226000 ms CreateObjectMapping: 0.108400 ms MarkObjects: 2.272300 ms  DeleteObjects: 0.054000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -178,13 +179,210 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 128617.818595 seconds.
-  path: Assets/Scenes/AH-64D.fbx
-  artifactKey: Guid(a4aca3e58171b9147b13574ddd3970e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/AH-64D.fbx using Guid(a4aca3e58171b9147b13574ddd3970e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b9bc0661340aeea432d3fbfc7d7d14') in 15.543390 seconds 
+  Time since last request: 1209684.782069 seconds.
+  path: Assets/Scenes/MenuScene.unity
+  artifactKey: Guid(92f8bf76693faf14b8c8b7283061319a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuScene.unity using Guid(92f8bf76693faf14b8c8b7283061319a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e2a776337b84e26a234223b7c02273') in 0.016557 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000057 seconds.
+  Time since last request: 0.928763 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a285de5256e175c6e0b32729188bd57') in 0.007842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.542557 seconds.
   path: Assets/Models/AH-64D.fbx
   artifactKey: Guid(a4aca3e58171b9147b13574ddd3970e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/AH-64D.fbx using Guid(a4aca3e58171b9147b13574ddd3970e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b9bc0661340aeea432d3fbfc7d7d14') in 15.767082 seconds 
+Start importing Assets/Models/AH-64D.fbx using Guid(a4aca3e58171b9147b13574ddd3970e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f52b9330b54910725d5e33811622a6') in 4.422031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.825552 seconds.
+  path: Assets/Materials/Ground Base.mat
+  artifactKey: Guid(fc2ae67be161f384889c9b9628bfdd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Ground Base.mat using Guid(fc2ae67be161f384889c9b9628bfdd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af7ae63a01400ad6a0e720e1ba3211f') in 0.017586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.288927 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(505967e25f508564ab758edde8afe079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(505967e25f508564ab758edde8afe079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144131401dc446b72dccfb53101e2480') in 0.016126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.005934 seconds.
+  path: Assets/Materials/Apache
+  artifactKey: Guid(233689acba4355742aa53bae292c388f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Apache using Guid(233689acba4355742aa53bae292c388f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac3596d8882d668368fbdcfb30990e5') in 0.006922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.152594 seconds.
+  path: Assets/Models/AH-64D.fbx
+  artifactKey: Guid(a4aca3e58171b9147b13574ddd3970e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AH-64D.fbx using Guid(a4aca3e58171b9147b13574ddd3970e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da548625c87389f38373d11abb0e65f7') in 2.941308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.863266 seconds.
+  path: Assets/Models/AH-64D.fbx
+  artifactKey: Guid(a4aca3e58171b9147b13574ddd3970e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AH-64D.fbx using Guid(a4aca3e58171b9147b13574ddd3970e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298ff2242da9d3dc4eb3b0c207fe0911') in 3.730942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Materials/AH64_fuselageTex3_c.mat
+  artifactKey: Guid(61b10993b1bd6c046803d827ffb9b3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/AH64_fuselageTex3_c.mat using Guid(61b10993b1bd6c046803d827ffb9b3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1421696e0e0e7959c0da68c94b670307') in 0.016231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Materials/ah64_panelsTex5_c.mat
+  artifactKey: Guid(c77df3c1894ac56488b7846a712552b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/ah64_panelsTex5_c.mat using Guid(c77df3c1894ac56488b7846a712552b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d2b3bf7a973f626b8839d610854517') in 0.013613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.121030 seconds.
+  path: Assets/Models/Materials/glossRubber.mat
+  artifactKey: Guid(bacb4de9be7f9a543aa0b05090938abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/glossRubber.mat using Guid(bacb4de9be7f9a543aa0b05090938abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6767f8cb45209dc515ecf452c1baa45') in 0.030088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Materials/lightBottomWhite.mat
+  artifactKey: Guid(e2edf1da0de568447959b6e0894e85c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/lightBottomWhite.mat using Guid(e2edf1da0de568447959b6e0894e85c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3641cfdb8b07f63c205162f4e47436e0') in 0.015394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/Materials/LightGray.mat
+  artifactKey: Guid(ef1f252f447be1044940da3e9416aab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/LightGray.mat using Guid(ef1f252f447be1044940da3e9416aab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b1b70cfc654112f6821588f77e56d2') in 0.019977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Materials/lightEngWhite.mat
+  artifactKey: Guid(bfe55689543690142b0465f3cb5282e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/lightEngWhite.mat using Guid(bfe55689543690142b0465f3cb5282e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7eb00c7e688ddb33239aa6b0a93a6af') in 0.020825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/Materials/OpticalGlass.mat
+  artifactKey: Guid(a6421bab4431cc1428ceb91f7870c1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/OpticalGlass.mat using Guid(a6421bab4431cc1428ceb91f7870c1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504de4850c02f08783aa6762440fae87') in 0.015842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Materials/lightsBottomTail.mat
+  artifactKey: Guid(97953371b309a6945a833bdd6993706e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/lightsBottomTail.mat using Guid(97953371b309a6945a833bdd6993706e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5c72281de4b243dc7db44c04811cdc') in 0.020117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Materials/lightReflectiveWhite.mat
+  artifactKey: Guid(3aaa23f8ae9bc634f9859064dbe5d000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/lightReflectiveWhite.mat using Guid(3aaa23f8ae9bc634f9859064dbe5d000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5480c936fee3d7e333eaa22ab176b6e9') in 0.024905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Materials/seatMetalSolid.mat
+  artifactKey: Guid(e78b5a9d68f06d343b8e0abb3bcd86af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/seatMetalSolid.mat using Guid(e78b5a9d68f06d343b8e0abb3bcd86af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19cf21e548e99599fe9921e4da940852') in 0.023093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/Materials/rotorBlackGloss.mat
+  artifactKey: Guid(beca06fa4ffa1e84082b6799fb929340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/rotorBlackGloss.mat using Guid(beca06fa4ffa1e84082b6799fb929340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7783b3b1518f6639edb5639ff0d5056b') in 0.030192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.436429 seconds.
+  path: Assets/Materials/Apache/blackGunMetal.mat
+  artifactKey: Guid(991aa427ceaecae44a535cfa950580e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Apache/blackGunMetal.mat using Guid(991aa427ceaecae44a535cfa950580e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c30dfc31cf6aec3ec3e222ff2b2a87') in 0.035192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/Apache/cockpit_MFDdisplay1Tex.mat
+  artifactKey: Guid(c5380b50610b64d4fbb52478fe2054a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Apache/cockpit_MFDdisplay1Tex.mat using Guid(c5380b50610b64d4fbb52478fe2054a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4cd2d700eeb7a533b7a3a89292cef4') in 0.039888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/Apache/fuselageTex4.mat
+  artifactKey: Guid(a2c413e0244d4a2468d184b75121ccf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Apache/fuselageTex4.mat using Guid(a2c413e0244d4a2468d184b75121ccf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b171868554b55fe3c4357e3660dd3c') in 0.018204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/Apache/fuselageTex5.mat
+  artifactKey: Guid(e0ce27a144b728c44b5a825129a871c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Apache/fuselageTex5.mat using Guid(e0ce27a144b728c44b5a825129a871c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc648e705c013ec1e9e9125450ceba25') in 0.025413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/Apache/HoseDarkYellow.mat
+  artifactKey: Guid(56a92626dac2e2e4c99720e864d26ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Apache/HoseDarkYellow.mat using Guid(56a92626dac2e2e4c99720e864d26ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc32fb0a9261f218ebfcbf75b97ea75') in 0.035534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/Apache/cockpit_panels4Tex.mat
+  artifactKey: Guid(98161309add5e6c4bb4d6907ab4601a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Apache/cockpit_panels4Tex.mat using Guid(98161309add5e6c4bb4d6907ab4601a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be37494a1f4f44b4c59b48455547c919') in 0.015570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Materials/Apache/fuselageTex6.mat
+  artifactKey: Guid(a1465e550c99ae44e92e848e433e267f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Apache/fuselageTex6.mat using Guid(a1465e550c99ae44e92e848e433e267f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d0d482e3e90362ccb99d7eab147d25') in 0.015097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/Apache/fuselageTex3.mat
+  artifactKey: Guid(3487b53e6b77b354b82eb3e34c82fca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Apache/fuselageTex3.mat using Guid(3487b53e6b77b354b82eb3e34c82fca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2498ee8c16afc41fffbaeb8ab424b26') in 0.013274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Materials/Apache/bulletMetal.mat
+  artifactKey: Guid(0d8a274b6a9b03d4bad8b4d5b5aba7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Apache/bulletMetal.mat using Guid(0d8a274b6a9b03d4bad8b4d5b5aba7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f431f156ad7b815305eb9152f1aad9be') in 0.013404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.693585 seconds.
+  path: Assets/Materials/Apache/LightGray.mat
+  artifactKey: Guid(543158b981e27a74db120eb9f7dea23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Apache/LightGray.mat using Guid(543158b981e27a74db120eb9f7dea23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9c20bc346c8c46eed84e3553f285fe') in 0.016680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/Apache/metalSwitchTex.mat
+  artifactKey: Guid(939ad4d43b1dbb1489166c216231fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Apache/metalSwitchTex.mat using Guid(939ad4d43b1dbb1489166c216231fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d728b48145bc1355bb9e20646ca3d99') in 0.015403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/Apache/lightWhiteTail.mat
+  artifactKey: Guid(dee8f5fbc134b05418cfa8111a73c21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Apache/lightWhiteTail.mat using Guid(dee8f5fbc134b05418cfa8111a73c21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d4864e818385a9a293f9dda7ba3471') in 0.012687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Materials/Apache/redSwitchTex.mat
+  artifactKey: Guid(6428521d7a811e348a736230f652da8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Apache/redSwitchTex.mat using Guid(6428521d7a811e348a736230f652da8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf742f65824b18aaaf39df0b7d0afc74') in 0.012527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/Apache/rotorBlackGloss.mat
+  artifactKey: Guid(67b2f27c2822d9240bd60ecd31ba2443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Apache/rotorBlackGloss.mat using Guid(67b2f27c2822d9240bd60ecd31ba2443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfcc025347000bd4a4a02c2900e22460') in 0.013684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.197772 seconds.
+  path: Assets/Materials/Apache/seatMetalTextured.mat
+  artifactKey: Guid(223a8c33c57c17341a0417bae77833a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Apache/seatMetalTextured.mat using Guid(223a8c33c57c17341a0417bae77833a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a2b0fc996b47b43dd1cc922f42de2c') in 0.017578 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

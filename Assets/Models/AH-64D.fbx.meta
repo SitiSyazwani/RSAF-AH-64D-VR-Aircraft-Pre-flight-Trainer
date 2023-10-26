@@ -3,7 +3,417 @@ guid: a4aca3e58171b9147b13574ddd3970e0
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black
+    second: {fileID: 2100000, guid: 503d9b1258159b844a33b19c9f6f24fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chrome
+    second: {fileID: 2100000, guid: 9f12e50961b3438449cb105216e2627a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CyclicCollective
+    second: {fileID: 2100000, guid: 2650fd53aeb46e94495cd297c22f885d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DarkGray
+    second: {fileID: 2100000, guid: 9393fe2e09ea1ed44b35c1f7fe2fc81a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HoseDarkYellow
+    second: {fileID: 2100000, guid: aa86fd0d1f5af834b9c7119da4ded1c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LightGray
+    second: {fileID: 2100000, guid: 001d6b7b3fd8d87418ab2f3d455ed9f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M4A1_Mat
+    second: {fileID: 2100000, guid: de7c6597e3f28a340aa3dd43105b1e45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OpticalGlass
+    second: {fileID: 2100000, guid: 8e834eccb5c8b4046b106792b2ccf561, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red
+    second: {fileID: 2100000, guid: 493b0eb671f18c443b10fe3b6589af85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: 8a5340ad66041a947929613f48a1533d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blackGlossTex
+    second: {fileID: 2100000, guid: 523bc02e2f16e984a80fee43ca99b64d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blackGunMetal
+    second: {fileID: 2100000, guid: b7056cd102068404ca765ec18019ba03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blackRubber
+    second: {fileID: 2100000, guid: 223d69a23e3c4c34eb91c520984de1fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blackRubberTex
+    second: {fileID: 2100000, guid: 6324362c1ea39954bb2077bf26c9c561, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blackSwitchTex
+    second: {fileID: 2100000, guid: ea5a1c5757958db4ebceaf0c1f4eb0a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blueTex
+    second: {fileID: 2100000, guid: 6304f40536843534e9c82c3404aed8da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brassTex
+    second: {fileID: 2100000, guid: fb60a528b737c404aa24073e2c867c88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bulletMetal
+    second: {fileID: 2100000, guid: 2fc3fa754ce01c4478e461a305871ec8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chromeTex
+    second: {fileID: 2100000, guid: e43b41849109df54aa7edad6304d1d34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cockpitHandleTex
+    second: {fileID: 2100000, guid: f5949cfc670e1a94698e2f30667382df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cockpit_Display1Tex
+    second: {fileID: 2100000, guid: ff4e2d9baa50a8a4c9193aa7578ca9c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cockpit_Display3Tex
+    second: {fileID: 2100000, guid: 0778ecd7f7325574e93b8810d144d39e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cockpit_MFDDisplay2Tex
+    second: {fileID: 2100000, guid: e28ec866baef5f64180162c4e72fed14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cockpit_MFDDisplay3Tex
+    second: {fileID: 2100000, guid: fe00d628084f8b34b8666a042acbdbca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cockpit_MFDdisplay1Tex
+    second: {fileID: 2100000, guid: ba027727ce65449478923a558f12b2d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cockpit_compassBall
+    second: {fileID: 2100000, guid: 850b38eab2b22274d8bed0148003e240, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cockpit_display2Tex
+    second: {fileID: 2100000, guid: 1c3195bb54f6a244e99a529b3e3b6d24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cockpit_knobButtonTex
+    second: {fileID: 2100000, guid: 74156389eb803e44d94d1d153d8366bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cockpit_panels
+    second: {fileID: 2100000, guid: 0c5746deb8d8a894c9fec9e980b2d88d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cockpit_panels2Tex
+    second: {fileID: 2100000, guid: 95c1a083f4ae4b34d9f410f46f02d8ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cockpit_panels3Tex
+    second: {fileID: 2100000, guid: f3383699788e9ee4080ebf3a0edeb271, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cockpit_panels4Tex
+    second: {fileID: 2100000, guid: d32463ae0897f8c44b832d39bdaf4523, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cockpit_panels5Tex
+    second: {fileID: 2100000, guid: ea33ecbfe4b6e58458aabf7a8d917eb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cockpit_throttleTex
+    second: {fileID: 2100000, guid: fc3a0974875ac5845a1131d948f0beea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: darkTex
+    second: {fileID: 2100000, guid: 137cd1aad729fc14f8c29d5e0c1359e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: darkmetalTex
+    second: {fileID: 2100000, guid: 302f9c1ff71a5c94cb7af32fbb8001cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dirtybrass
+    second: {fileID: 2100000, guid: adb7e42333ad02046b821a4f88dfbf61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fuselageSolidColorLight
+    second: {fileID: 2100000, guid: b95b3bd9205885b478ca190e970d6a78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fuselageSolidTex
+    second: {fileID: 2100000, guid: 4f67af95050a0cf48a509abca3705442, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fuselageTex1
+    second: {fileID: 2100000, guid: 98cf45ac08f6afa47953e66561948f12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fuselageTex2
+    second: {fileID: 2100000, guid: 4c87d292e0691d24499b40618fe03457, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fuselageTex3
+    second: {fileID: 2100000, guid: 71c28228b4d4d1e4ea1dc744f0284cd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fuselageTex4
+    second: {fileID: 2100000, guid: 223597c0c6337b54f92faf75a59fb118, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fuselageTex5
+    second: {fileID: 2100000, guid: 1ab99985c5f04434c9f7a1967ac21538, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fuselageTex6
+    second: {fileID: 2100000, guid: 96e7847035b8bba48b77d1b3b7eb7574, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fuselageTex7
+    second: {fileID: 2100000, guid: 88e00030e367c0041951aa7ae95fad13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glassClear
+    second: {fileID: 2100000, guid: 7244fe727dd581a4cae0429b0bcdc7df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glassDialFace
+    second: {fileID: 2100000, guid: 410d2ed2d97f2614d8a40f76c1893b85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glassLess Clera
+    second: {fileID: 2100000, guid: 3253882c1033d95478a5b9767f4de5f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glossBlack
+    second: {fileID: 2100000, guid: 54d13535fdca8af4abfc41531bb30716, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glossRubber
+    second: {fileID: 2100000, guid: fa4b63bed89a5134bb80f88d1eec140a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: greenish
+    second: {fileID: 2100000, guid: ab97e796dc8780f4f8d90d235470a129, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hoseYellowTex
+    second: {fileID: 2100000, guid: 6c3658ad9f677064f9e65e5fcbc507c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightBottomWhite
+    second: {fileID: 2100000, guid: 0cd2619b98cfb044f8ec5232a35e9c79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightEngRed
+    second: {fileID: 2100000, guid: 81f83b794607b9345bcb53ade4c38113, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightEngWhite
+    second: {fileID: 2100000, guid: 0d60917a53ce0314ebb83d39a1900596, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightNavGreen
+    second: {fileID: 2100000, guid: 1b26a6ddd9eafa249a1190648eed82d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightNavRed
+    second: {fileID: 2100000, guid: fb2e77c985ee85340b7d5b11d6250a01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightRedTail
+    second: {fileID: 2100000, guid: 22b799bf63e87174d8a60ecbd66d5042, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightReflectiveWhite
+    second: {fileID: 2100000, guid: e42b03852182b06478b0e343d9e5b9fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightWhiteTail
+    second: {fileID: 2100000, guid: ce21e8987c16c9045ac781d7a8d93f40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightsBottomTail
+    second: {fileID: 2100000, guid: 3666db14e5e0f0e4b91a2b7ee6345603, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metalSwitchTex
+    second: {fileID: 2100000, guid: 194abfc818e6f8446b44afb7898a541b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metalTex
+    second: {fileID: 2100000, guid: 2acaa991d3a90d2429346843ca59427e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metalTexExt
+    second: {fileID: 2100000, guid: 2d8e4f46816c449429943eefb57611e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metalTexRotor
+    second: {fileID: 2100000, guid: 4b5517ec71045c84183afdeed28627ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mirror
+    second: {fileID: 2100000, guid: e8106636218d6ca46bd406a3b59ebfd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: redSwitchTex
+    second: {fileID: 2100000, guid: 86cc88c137efbe947beff1c81a8da067, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: redTex
+    second: {fileID: 2100000, guid: 74bb7beebafc65146b26ce435102cb24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rotorBlackGloss
+    second: {fileID: 2100000, guid: 79c30a13bb2e82647924547a5855cbf5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rudderPeddals
+    second: {fileID: 2100000, guid: 5283947333d84514da62446bb003a3b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seatFabric
+    second: {fileID: 2100000, guid: 49c217b507a351245bf215423d3962a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seatFineFabric
+    second: {fileID: 2100000, guid: a28516fdf157a9b45a8b260e58020f71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seatGlossBlack
+    second: {fileID: 2100000, guid: c7663b5cd8a525140ba3dfb0edfb7c42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seatMetalSolid
+    second: {fileID: 2100000, guid: 1c8ed35d20826d54bbda0fbd7521415e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seatMetalTextured
+    second: {fileID: 2100000, guid: 30e3d687444c9934882e92b21c2ac693, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seat_beltTex
+    second: {fileID: 2100000, guid: 8dd25b47735449f49b4a52d7db13e2e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tanTex
+    second: {fileID: 2100000, guid: 2be62e9808cc1e44c837603e22ac8f40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: velcroTex
+    second: {fileID: 2100000, guid: f446e0216e595964080edb571862a0e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: whiteTex
+    second: {fileID: 2100000, guid: c4043d2f3ec1d154ab24bbf9b5e27026, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windowsMain
+    second: {fileID: 2100000, guid: dffa7a39ef07df3468d9bef5ec71786a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellowTex
+    second: {fileID: 2100000, guid: 6aedfce0d00f49946bd56908fdcc41da, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
