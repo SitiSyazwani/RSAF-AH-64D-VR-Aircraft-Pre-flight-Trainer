@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16127 MB
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16051 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Unity SP/RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct
+C:/Users/Siti Syazwani/UnityProjects/RSAF AH-64D VR Aircraft Pre-flight Trainer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56197
-Successfully changed project path to: C:/Unity SP/RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct
-C:/Unity SP/RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct
+58361
+Successfully changed project path to: C:/Users/Siti Syazwani/UnityProjects/RSAF AH-64D VR Aircraft Pre-flight Trainer
+C:/Users/Siti Syazwani/UnityProjects/RSAF AH-64D VR Aircraft Pre-flight Trainer
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,74 +47,74 @@ C:/Unity SP/RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 224.80 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 2.02 ms.
+Refreshing native plugins compatible for Editor in 67.04 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.83 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Unity SP/RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Siti Syazwani/UnityProjects/RSAF AH-64D VR Aircraft Pre-flight Trainer/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Plus Graphics (ID=0x8a52)
-    Vendor:   Intel
-    VRAM:     8063 MB
-    Driver:   27.20.100.8729
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   30.0.15.1278
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.014474 seconds.
+Registered in 0.004500 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 219.84 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
+Refreshing native plugins compatible for Editor in 63.71 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.738 seconds
+- Completed reload, in  0.498 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1739ms)
-		BeginReloadAssembly (191ms)
+	ReloadAssembly (499ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1223ms)
-			LoadAssemblies (188ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (359ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (273ms)
+			SetupTypeCache (84ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (743ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (217ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (115ms)
+				InitializePlatformSupportModulesInManaged (45ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (220ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (272ms)
-				ProcessInitializeOnLoadMethodAttributes (132ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014266 seconds.
+Registered in 0.006411 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Unity SP\RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Unity SP\RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Siti Syazwani\UnityProjects\RSAF AH-64D VR Aircraft Pre-flight Trainer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Siti Syazwani\UnityProjects\RSAF AH-64D VR Aircraft Pre-flight Trainer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 227.61 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.20 ms.
+Refreshing native plugins compatible for Editor in 58.34 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Unity SP\RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Unity SP\RSAF-AH-64D-VR-Aircraft-Pre-flight-Trainer - 15 Oct\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\Siti Syazwani\UnityProjects\RSAF AH-64D VR Aircraft Pre-flight Trainer\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Siti Syazwani\UnityProjects\RSAF AH-64D VR Aircraft Pre-flight Trainer\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
    --- End of inner exception stack trace ---
@@ -128,49 +128,50 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  3.533 seconds
+- Completed reload, in  0.980 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3536ms)
-		BeginReloadAssembly (281ms)
+	ReloadAssembly (981ms)
+		BeginReloadAssembly (190ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (2888ms)
-			LoadAssemblies (218ms)
+			CreateAndSetChildDomain (119ms)
+		EndReloadAssembly (705ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (922ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (160ms)
-			SetupLoadedEditorAssemblies (1441ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (372ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (35ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (228ms)
-				BeforeProcessingInitializeOnLoad (291ms)
-				ProcessInitializeOnLoadAttributes (782ms)
-				ProcessInitializeOnLoadMethodAttributes (84ms)
-				AfterProcessingInitializeOnLoad (21ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.34 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 1.10 ms.
-Unloading 4204 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (56.2 KB). Loaded Objects now: 4668.
-Memory consumption went from 148.3 MB to 148.2 MB.
-Total: 8.791900 ms (FindLiveObjects: 0.523200 ms CreateObjectMapping: 0.267200 ms MarkObjects: 7.828300 ms  DeleteObjects: 0.171200 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4191 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.0 KB). Loaded Objects now: 4653.
+Memory consumption went from 147.2 MB to 147.2 MB.
+Total: 2.959100 ms (FindLiveObjects: 0.375500 ms CreateObjectMapping: 0.112600 ms MarkObjects: 2.410200 ms  DeleteObjects: 0.059400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -178,13 +179,143 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 128617.818595 seconds.
-  path: Assets/Scenes/AH-64D.fbx
-  artifactKey: Guid(a4aca3e58171b9147b13574ddd3970e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/AH-64D.fbx using Guid(a4aca3e58171b9147b13574ddd3970e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b9bc0661340aeea432d3fbfc7d7d14') in 15.543390 seconds 
+  Time since last request: 1213408.072437 seconds.
+  path: Assets/Materials/ApacheTextures/AH64_M4A1_Normal.jpg
+  artifactKey: Guid(609d84f2e5c2efa4cab50eba3c883539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ApacheTextures/AH64_M4A1_Normal.jpg using Guid(609d84f2e5c2efa4cab50eba3c883539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500eb9a62fab37b617654615951b33cc') in 0.080689 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Models/AH-64D.fbx
-  artifactKey: Guid(a4aca3e58171b9147b13574ddd3970e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/AH-64D.fbx using Guid(a4aca3e58171b9147b13574ddd3970e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b9bc0661340aeea432d3fbfc7d7d14') in 15.767082 seconds 
+  Time since last request: 9.542433 seconds.
+  path: Assets/Materials/ApacheTextures/ah64_panelsTex2_b.jpg
+  artifactKey: Guid(2ad0ff6624d821e44a0f37b1cc8caabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ApacheTextures/ah64_panelsTex2_b.jpg using Guid(2ad0ff6624d821e44a0f37b1cc8caabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19771ea5c11cb3728160abec9c7b2485') in 0.030667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/ApacheTextures/ah64_panelsTex4_b.jpg
+  artifactKey: Guid(8f3ec1e576c84e741ae9ba708a15e35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ApacheTextures/ah64_panelsTex4_b.jpg using Guid(8f3ec1e576c84e741ae9ba708a15e35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24330c2a93be57fc44efc506d007ad4d') in 0.025232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/ApacheTextures/AH64_velcro_b.jpg
+  artifactKey: Guid(9bc4e485c60f1a14984c8fc69649da26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ApacheTextures/AH64_velcro_b.jpg using Guid(9bc4e485c60f1a14984c8fc69649da26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e347d9b2dee64f5ba064983451151ed') in 0.022892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/ApacheTextures/ah64_panelsTex_b.jpg
+  artifactKey: Guid(563128de241acb849b51e1f24a05b6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ApacheTextures/ah64_panelsTex_b.jpg using Guid(563128de241acb849b51e1f24a05b6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d39b800d235104bdcb1c60f1315be8a') in 0.023192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Materials/ApacheTextures/ah64_panelsTex4_s.jpg
+  artifactKey: Guid(7ab4c39e316c63a4499aea69004ce2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ApacheTextures/ah64_panelsTex4_s.jpg using Guid(7ab4c39e316c63a4499aea69004ce2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b2427fed1b18dd54b05bc730063d87') in 0.020035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/ApacheTextures/ah64_panelsTex4_c.jpg
+  artifactKey: Guid(e4cf4e4e2f824404d876ecb2fa707add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ApacheTextures/ah64_panelsTex4_c.jpg using Guid(e4cf4e4e2f824404d876ecb2fa707add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35533cf0dda4899d47c2ae49612bf0d8') in 0.017507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Materials/ApacheTextures/ah64_panelsTex_r.jpg
+  artifactKey: Guid(e5eb9bc018fcdf04095ef999e9b080b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ApacheTextures/ah64_panelsTex_r.jpg using Guid(e5eb9bc018fcdf04095ef999e9b080b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb6a62145924fdbf3368c2e2ddedd74') in 0.018489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/ApacheTextures/ah64_PedalsTex_c.jpg
+  artifactKey: Guid(f3a7cb11bed2ae246a4cae68e30b2789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ApacheTextures/ah64_PedalsTex_c.jpg using Guid(f3a7cb11bed2ae246a4cae68e30b2789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afca5e377641c68b45882e63fbc7f87') in 0.018151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Materials/ApacheTextures/AH64_seatTexture_c.jpg
+  artifactKey: Guid(975edc2fae537d145b60b5d4c0e56fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ApacheTextures/AH64_seatTexture_c.jpg using Guid(975edc2fae537d145b60b5d4c0e56fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a58105b62cce911b0355fd566160739') in 0.016008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Materials/ApacheTextures/ah64_throttleTex_b.jpg
+  artifactKey: Guid(466ec2bc731ef62419e1e2a1f4d5d492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ApacheTextures/ah64_throttleTex_b.jpg using Guid(466ec2bc731ef62419e1e2a1f4d5d492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f125249cf21c5581a687dc9eae5b56') in 0.024893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/ApacheTextures/ah64_panelsTex3_c.jpg
+  artifactKey: Guid(e5fc1849e4a75d348812dd73c0533f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ApacheTextures/ah64_panelsTex3_c.jpg using Guid(e5fc1849e4a75d348812dd73c0533f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe46b63f263f2859b5a6217a8ce73167') in 0.017534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/ApacheTextures/AH64_seatFabricLarge_r.jpg
+  artifactKey: Guid(8c4e478792e801e46a50b5837e392ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ApacheTextures/AH64_seatFabricLarge_r.jpg using Guid(8c4e478792e801e46a50b5837e392ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3d23b9488e80545f25c4cf5f6a874e') in 0.020059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/ApacheTextures/AH64_seatFabricSmall_b.jpg
+  artifactKey: Guid(125e451be197f43418941610d6648f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ApacheTextures/AH64_seatFabricSmall_b.jpg using Guid(125e451be197f43418941610d6648f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c714c14e7a8fc5d298baa75c539dbb5') in 0.024693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/ApacheTextures/ah64_panelsTex5_s.jpg
+  artifactKey: Guid(62cf02bb41544ee4db19befb4b2ef0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ApacheTextures/ah64_panelsTex5_s.jpg using Guid(62cf02bb41544ee4db19befb4b2ef0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0816ed6528cc3c453053b71d7447cdb6') in 0.019294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/ApacheTextures/ah64_PedalsTex_r.jpg
+  artifactKey: Guid(e30ab669e0050a8498800fa3c32f9ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ApacheTextures/ah64_PedalsTex_r.jpg using Guid(e30ab669e0050a8498800fa3c32f9ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5968eb3eca49dc33127968e4ba644396') in 0.019030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Materials/ApacheTextures/ah64_panelsTex5_b.jpg
+  artifactKey: Guid(bb0bfbea66ea0b947a5f96f5904489bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ApacheTextures/ah64_panelsTex5_b.jpg using Guid(bb0bfbea66ea0b947a5f96f5904489bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818140064b7b271e13c38f6625623964') in 0.025964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Materials/ApacheTextures/ah64_panelsTex2_r.jpg
+  artifactKey: Guid(cb356799beb5739469ac3632d234a47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ApacheTextures/ah64_panelsTex2_r.jpg using Guid(cb356799beb5739469ac3632d234a47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4165f910926d0b5ee71c46da0c7a06a') in 0.019998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/ApacheTextures/ah64_PedalsTex_s.jpg
+  artifactKey: Guid(af5e4701c3622534fa28ae391c278320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ApacheTextures/ah64_PedalsTex_s.jpg using Guid(af5e4701c3622534fa28ae391c278320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9935210690023ed3b3f9ed033dfcc497') in 0.018965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/ApacheTextures/ah64_panelsTex5_c.jpg
+  artifactKey: Guid(90091ae21b011db4e8dcd6b36f92cd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ApacheTextures/ah64_panelsTex5_c.jpg using Guid(90091ae21b011db4e8dcd6b36f92cd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b73a6d43e577f5e2cf86bd28f79bd60') in 0.016945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/ApacheTextures/ah64_panelsTex_c.jpg
+  artifactKey: Guid(add903209f5029f46b45d33a8f93dd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ApacheTextures/ah64_panelsTex_c.jpg using Guid(add903209f5029f46b45d33a8f93dd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59268334f11f503008ebe566101f3e48') in 0.016952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/ApacheTextures/AH64_seatFabricLarge_b.jpg
+  artifactKey: Guid(696c8048403e18d4583337637c64ef29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ApacheTextures/AH64_seatFabricLarge_b.jpg using Guid(696c8048403e18d4583337637c64ef29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410138865311a19af8545ebf52299a75') in 0.024964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/ApacheTextures/AH64_seatFabricSmall_c.jpg
+  artifactKey: Guid(6c8ed9a62bc5c7245a260a5313dc1eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ApacheTextures/AH64_seatFabricSmall_c.jpg using Guid(6c8ed9a62bc5c7245a260a5313dc1eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b715fdbce0d2233ad4177044ea724db4') in 0.016832 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
